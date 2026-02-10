@@ -41,8 +41,7 @@
 ## 🚀 Live Demo (Production)
 
 Frontend
-- https://onebite-books-page-ten-rosy.vercel.app/
-
+- 배포 수정 중에 있습니다.
 ---
 
 ## 🛠 Tech Stack
