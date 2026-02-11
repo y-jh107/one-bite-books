@@ -1,4 +1,4 @@
-# 📚 One Bite Books – Frontend
+# 📚 One Bite Books – Page Router
 
 이 프로젝트는 개인 창작물이 아닌,  
 인프런 강의 「**한입 크기 Next.js**」의 Page Router 파트를 학습하며 따라 만든 실습 프로젝트입니다.
