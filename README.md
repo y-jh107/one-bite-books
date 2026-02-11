@@ -46,7 +46,7 @@ one-bite-books-page-router
 
 Frontend
 
-- 배포 수정 중에 있습니다.
+- https://one-bite-books-page-ivory.vercel.app/
 
 ---
 
