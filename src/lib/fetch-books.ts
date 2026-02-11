@@ -1,11 +1,14 @@
 import { BookData } from "@/types";
 
-export default async function fetchRandomBooks(): Promise<BookData[]> {
-  const url = `https://onebite-books-server-main-six-dun.vercel.app//book/random`;
+export default async function fetchBooks(q?: string): Promise<BookData[]> {
+  let url = `http://one-bite-books-server-nine.vercel.app/book`;
+
+  if (q) {
+    url += `/search?q=${q}`;
+  }
 
   try {
     const response = await fetch(url);
-
     if (!response.ok) {
       throw new Error();
     }
@@ -13,6 +16,7 @@ export default async function fetchRandomBooks(): Promise<BookData[]> {
     return await response.json();
   } catch (err) {
     console.error(err);
+
     return [];
   }
 }
